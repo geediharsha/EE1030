@@ -1,0 +1,142 @@
+%iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+%\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+% Marks the beginning of the document
+\begin{document}
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{21.Probability}
+\author{EE24BTECH11025-GEEDI HARSHA VARDHAN}
+\maketitle
+\newpage
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+
+
+
+\begin{enumerate}
+\item Suppose the probability for A to win a game against B is 0.4. If A has an option of playing either a "best of 3 games" or a "best of 5 games" match against B , which option should be choose so that the probability of his winning the match is higher?(No game ends in a draw).
+
+\hfill(1989- 5 Marks)
+
+\item A is set containing n elements. A subset P of A is chosen at random. The set A is recognised by replacing the elements of P. A subset Q of A is again chosen at random. Find the probability that P and Q have no common elements.
+I
+\hfill(1990- 5 Marks)
+
+
+
+
+\item In a test an example either guesses or copies or knwows the answer to a multiple choice question with four choices. The probability that he make a guess is $\frac{1}{3}$ and the probability that he copies the answer is $\frac{1}{3}$. The probability that his answer is correct given that he is copied it, is $\frac{1}{8}$. Find the probability that he knew the answer to question given that he correctly answered it.
+
+\hfill(1991- 4 Marks)
+
+\item A lot contains 50 defective and 50 non defective bulbs. Two bulbs are drawn at random, one at a time, with replacement. The events A,B,C are defined as 
+
+
+\item A lot contains 50 defective and 50 non defective bulbs. Two bulbs are drawn at random, one at a time, with replacement. The events A,B,C are defined as 
+A = (the first bulb is defective)
+B = (the second bulb is non-defective)
+C = (the two bulbs are both defective or both non-defective)
+Determine whether
+\begin{enumerate}[label=(\roman*)]
+\item A,B,C are pairwise independent
+\item A,B,C are independent
+\end{enumerate}
+
+\hfill(1992- 6 Marks)
+
+\item Numbers are selected at random, one at a time, from the two-digit numbers 00, 01, 02...., 99 with replacement. An event E occurs if only if the product of the two digits of a selected number is 18. If four numbers are selected, find probability that the event E occurs at least 3 times.
+
+\hfill(1993- 5 Marks)
+
+\item An unbiased coin is tossed. If the result is a head, a pair of unbiased dice is rolled and the number obtained by adding the numbers on the two faces is noted. If the result is a tail, a card from a well shuffled pack of eleven cards numbered 2, 3, 4,....12 is picked and the number on the card is noted. What is the probability that the noted. What is the probability that the noted number is either 7 or 8?
+
+\hfill(1994- 5 Marks)
+
+\item In how many ways three girls and nine boys can be seated in two vans, each having numbered seats, $3$ in the front and 4 at the back? How many seating arrangements are possible if 3 girls should sit together in a back row on adjacent seats? Now, if all the seating arrangements are equally likely, what is the probability of 3 girls sitting together in a back row on adjacent seats?
+
+\hfill(1996- 5 Marks)
+
+\item If p and q are chosen randomly from the set ${1,2,3,4,5,6,7,8,9,10}$, with replacement, determine the probability that the roots of the equation $x^2+px+q=0$ are real.
+                                                      
+\hfill(1997- 5 Marks)
+
+\item Three players,A,B, and C, toss a coin cyclically in that order (that is A,B,C,A,B,C,A,B....) till a head shows. Let p be the probability that the coin shows a head. Let $\alpha$,$\beta$ and $\gamma$ be, respectively, that thr coin shows a head. Prove that $\beta=(1-p)\alpha$. Determine $\alpha$,$\alpha$,$\beta$,$\gamma$(in terms of p).
+
+\hfill(1998- 8 Marks)
+
+\item Eight players $P_{1}$,$P_{2}$,.....$P_{8}$ play a knock-out tournament. It is known that whenever the players $P_{i}$ and $P_{j}$ play, the player $P_{i}$ will win $i<j$. Assuming that the players are paired at random in each round, what is the probability that player $P_{4}$ reaches the final?
+
+\hfill(1999- 10 Marks)
+
+\item A coin has probability p of showing head when tossed. It is tossed n times. let $p_{n}$ denote the probability that no two (or more) consecutive heads occur. Prove that $p_{1}=1$, $p_{2}=1-p^2$ and $p_{n}=(1-p)$. $p_{n-1}+p(1-p)p_{n-2}$ for all $n \geq 3$. 
+
+\hfill(2000- 5 Marks)
+
+\item An urn contains m white and n black balls. A ball is drawn at random and is put back into urn along with k additional balls of the same colour as that of the ball drawn. A ball is again drawn at random. What is the probability that the ball drawn now is white?
+
+\hfill(2001- 5 Marks)
+
+\item An unbiased die, with faces numbered 1,2,3,4,5,6, is thrown n times and the list of n numbers showing up is noted. What is the probability that, among the numbers 1,2,3,4,5,6, only three numbers appear in this list?
+
+\hfill(2001- 5 Marks)
+
+\item A box contains N coins, m of which are fair and the rest are biased. The probability of getting a head when a fair coin is tossed is $\frac{1}{2}$, while it is $\frac{2}{3}$ when a biased coin is tossed. A coin is drawn from the box at random and is tossed twice. The first time it shows head and the second time it shows tail. What is the probability that the coin drawn is fair?
+
+\hfill(2002- 5 Marks)
+
+\item For a student to qualify, he must pass at least two of the three exams. The probability that he will pass the first exam is p. If he fails in one of the exams then the probability of his passing in the next exam is $\frac{p}{2}$ otherwise it remains the same. Find the probability that he will qualify.
+
+\hfill(2003- 2 Marks)
+\end{enumerate}
+
+\end{document}
